@@ -6,13 +6,15 @@ void main() {
     double final1 = 75.0;
     double ort = vize1 / 4 + vize2 / 4 + final1 / 2;
     System.out.println(ort);
-    if (ort >= 85){
+    if (ort>=85){
         System.out.println("Geçtin ve takdir belgesi aldın.");
-    }else if (ort<85 && ort>75){
+    }else if (ort>=75){
         System.out.println("Geçtin ve teşekkür belgesi aldın.");
-    }else if (ort<75 && ort>50){
+    }else if (ort>=50){
         System.out.println("Geçtin ama belge almadın");
     }else{
         System.out.println("Kaldın.");
     }
 }
+
+
